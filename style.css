@@ -1,0 +1,23 @@
+/* Apply general styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style each section */
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+}
+
+/* Apply responsive design using media queries */
+@media screen and (max-width: 768px) {
+    .section {
+        /* Adjust styling for smaller screens */
+    }
+}
